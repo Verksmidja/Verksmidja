@@ -2,8 +2,6 @@ int distanceThreshold = 0;
 
 int cm = 0;
 
-int inches = 0;
-
 long readUltrasonicDistance(int triggerPin, int echoPin)
 {
   pinMode(triggerPin, OUTPUT);  // Clear the trigger
@@ -33,12 +31,8 @@ void loop()
   distanceThreshold = 150;
   // measure the ping time in cm
   cm = 0.01723 * readUltrasonicDistance(7, 6);
-  // convert to inches by dividing by 2.54
-  inches = (cm / 2.54);
   Serial.print(cm);
   Serial.print("cm, ");
-  Serial.print(inches);
-  Serial.println("in");
   if (cm > distanceThreshold) {
     digitalWrite(2, LOW);
     digitalWrite(3, LOW);
