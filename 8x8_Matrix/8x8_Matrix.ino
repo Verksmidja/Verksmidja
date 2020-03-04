@@ -13,7 +13,8 @@ void setup() {
   pinMode(4, OUTPUT); // 11 Colllom 6
   pinMode(3, OUTPUT); // 10 Collom 4
   pinMode(2, OUTPUT); // 9 row 1
-  pinMode(1,INPUT);// Takkin á Joystick 
+  pinMode(1,INPUT);// Reset takki
+  pinMode(0,INPUT);// Takkin á Joystick 
   pinMode(A2, OUTPUT); // 5 row 8
   pinMode(A3, OUTPUT); // 6 Collom  5 
   pinMode(A4, OUTPUT); // 7 Row 6
@@ -21,44 +22,55 @@ void setup() {
   pinMode(A0,INPUT); // X ásinn
   pinMode(A1,INPUT); // Y ásinn 
 }
+  int Rows[] = {2,7,A5,5,13,A4,12,A2};
   int collomPin[] ={6,11,10,3,A3,4,8,9} ;
-  int colloms[][8]={ {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH},
-                   {HIGH,HIGH,LOW,HIGH,HIGH,LOW,HIGH,HIGH},
-                   {HIGH,HIGH,LOW,HIGH,HIGH,LOW,HIGH,HIGH},
-                   {HIGH,HIGH,LOW,HIGH,HIGH,LOW,HIGH,HIGH},
-                   {LOW,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,LOW},
-                   {HIGH,LOW,HIGH,HIGH,HIGH,HIGH,LOW,HIGH},
-                   {HIGH,HIGH,LOW,LOW,LOW,LOW,HIGH,HIGH},
-                   {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH}};
+  int colloms[8][8]={ {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH},
+                      {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH},
+                      {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH},
+                      {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH},
+                      {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH},
+                      {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH},
+                      {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH},
+                      {HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH,HIGH}};
 int x = 5;
 int y = 5;
-//colloms[0])[3] = LOW;
-/*int draw(){
+void clearMatrix(){
+    for (int c = 0; c < 8; c++){
+    for (int r = 0;r <8; r++){
+    colloms[c][r]= 1;
+    }
+  }
+}
+void draw(){
+  for (int c = 0; c < 8; c++){
+    for (int r = 0;r <8; r++){
+      digitalWrite(Rows[r],colloms[c][r]);
+    }
+    digitalWrite(collomPin[c],1);
+    digitalWrite(collomPin[c],0);
+  }
+}
+void loop() {
+draw();
+    if (digitalRead(0) == 0){
       if (colloms[y][x] == 1){
-        int colloms[y][x] = LOW;
+        colloms[y][x] = 0;
       }
       else if (colloms[y][x]==0){
-        int colloms[y][x]= HIGH;
+        colloms[y][x]= 1;
   }
-}*/
-void loop() {
-  //Coloms
-  //toggle();
-  for (int i = 0; i < 8; i++){
-  digitalWrite(2,colloms[i][0]);
-  digitalWrite(7,colloms[i][1]);
-  digitalWrite(A5,colloms[i][2]);
-  digitalWrite(5,colloms[i][3]);
-  digitalWrite(13,colloms[i][4]);
-  digitalWrite(A4,colloms[i][5]);
-  digitalWrite(12,colloms[i][6]);
-  digitalWrite(A2,colloms[i][7]);
-  digitalWrite(collomPin[i],1);
-  delay(2);
-  digitalWrite(collomPin[i],0);
-  }
+    }
+    /*else{
+      colloms[y][x]=1;
+      delay(3);
+      colloms[y][x]=0;
+    }*/
+    if (digitalRead(1)==1){
+      clearMatrix();
+    }
   x = 7 - map(analogRead(A0), 0, 1023, 0, 7);
-  Serial.print(x);
+  //Serial.print(x);
   y = map(analogRead(A1), 0, 1023, 0, 7);
-  Serial.print(y);
+  //Serial.print(y);
+  //Serial.print(digitalRead(0));    
 }
