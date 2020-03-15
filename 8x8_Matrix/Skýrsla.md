@@ -21,4 +21,4 @@
   * teingja víra við ardurino grænir eru row gulir eru Colloms
   ##
  3. 3D Hönnun
- er ekki en komin
+ er ekki en komin er að setja legja hönd á verkefnið
