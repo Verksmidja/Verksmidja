@@ -12,6 +12,7 @@
  * stitta kóðan með for loop í for loop
  * bæta við teikningu með joystick
  * gera þanig ap þú getir strokað út
+ [Kóðinn](https://github.com/Tardis2105/Verksmidja/blob/master/8x8_Matrix/8x8_Matrix.ino)
  ##
  2. lóðun
   * festa matrix displayið við borðið
