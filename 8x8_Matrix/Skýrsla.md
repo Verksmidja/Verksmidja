@@ -6,4 +6,9 @@
  * stitta kóðan með for loop í for loop
  * bæta við teikningu með joystick
  * gera þanig ap þú getir strokað út
-1. 
+ 2. lóðun
+  * festa matrix displayið við borðið
+  * setja 220Ω viðnám þar sem row pinnarnir eru
+  * teingja við ground
+  * teingja víra við ardurino grænir eru row gulir eru Colloms
+ 3. 
