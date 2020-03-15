@@ -1,8 +1,8 @@
 ## Það sem þarf fyrir þetta
- * * Matrix display
- * * 8 stiki 220Ω Viðnám
- * * mikið af Vírum
- * * lóðunar setup
+* Matrix display
+* 8 stiki 220Ω Viðnám
+* mikið af Vírum
+* lóðunar setup
 ##
 1. Code
  * Finna út hvaða pinni er 1 og 16
