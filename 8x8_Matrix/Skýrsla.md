@@ -1,4 +1,4 @@
-## Það sem þarf fyrir þetta
+[## Það sem þarf fyrir þetta
 * Matrix display
 * 8 stiki 220Ω Viðnám
 * mikið af Vírum
@@ -21,5 +21,10 @@
   * teingja víra við ardurino grænir eru row gulir eru Colloms
   ##
  3. 3D Hönnun
-
-!(Mynd)[https://github.com/Tardis2105/Verksmidja/blob/master/8x8_Matrix/3d%20Honnun.PNG]
+ * Mæla leingdina á ardurino og borðinu með teingingonum
+ * fá model fyrir joystick
+ * gera box sem er jafnlángt og mælingarnar
+ * gera gat fyrir matrix display og joystick
+ * setja festingar fyrir Top og botnin
+![Mynd](https://github.com/Tardis2105/Verksmidja/blob/master/8x8_Matrix/3d%20Honnun.PNG)
+[3D Hönnunin](https://github.com/Tardis2105/Verksmidja/blob/master/8x8_Matrix/Matrix%20Display.stl)
