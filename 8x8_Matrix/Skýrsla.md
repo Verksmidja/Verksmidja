@@ -1,4 +1,4 @@
-[## Það sem þarf fyrir þetta
+## Það sem þarf fyrir þetta
 * Matrix display
 * 8 stiki 220Ω Viðnám
 * mikið af Vírum
@@ -26,6 +26,7 @@
  * gera box sem er jafnlángt og mælingarnar
  * gera gat fyrir matrix display og joystick
  * setja festingar fyrir Top og botnin
+ 
  [3D Hönnunin](https://github.com/Tardis2105/Verksmidja/blob/master/8x8_Matrix/Matrix%20Display.stl)
 ![Mynd](https://github.com/Tardis2105/Verksmidja/blob/master/8x8_Matrix/3d%20Honnun.PNG)
 
