@@ -21,4 +21,5 @@
   * teingja víra við ardurino grænir eru row gulir eru Colloms
   ##
  3. 3D Hönnun
- er ekki en komin er að setja legja hönd á verkefnið
+
+!(Mynd)[https://github.com/Tardis2105/Verksmidja/blob/master/8x8_Matrix/3d%20Honnun.PNG]
