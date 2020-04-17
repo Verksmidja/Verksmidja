@@ -19,6 +19,7 @@
   * setja 220Ω viðnám þar sem row pinnarnir eru
   * teingja við ground
   * teingja víra við ardurino grænir eru row gulir eru Colloms
+  # Lóðuninn virkaði ekki hjá mér
   ##
  3. 3D Hönnun
  * Mæla leingdina á ardurino og borðinu með teingingonum
