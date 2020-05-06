@@ -1,5 +1,4 @@
-## Rc Car
-[Tinkercad](https://www.tinkercad.com/things/67nPdctYZgX-car/editel?sharecode=fHQJBpK-BEL3owfgGd8jFX-ldt88Felxd8lBaDWrvVY)
+## [Rc Car Tinkercad](https://www.tinkercad.com/things/67nPdctYZgX-car/editel?sharecode=fHQJBpK-BEL3owfgGd8jFX-ldt88Felxd8lBaDWrvVY)
 ### Það sem þarð í þetta
  * 2 servo motors
  * 2 Dc motors
