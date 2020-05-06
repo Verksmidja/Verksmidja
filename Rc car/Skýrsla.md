@@ -27,10 +27,10 @@
  * Þergar Master Requestar data skilar það value af Ultrasonic distance sensorinn
  * gera það þannig að þegar gögn frá Master er sent þá fara þau í sitt eigið variable
  * Gera helling af If statments sem kveikja á Servo og DC motor Funcions eftir því hvað er valið
- [Bíllin Kóði](https://github.com/Tardis2105/Verksmidja/blob/master/Rc%20car/Rc%20Car..ino)
+ #### [Bíllin Kóði](https://github.com/Tardis2105/Verksmidja/blob/master/Rc%20car/Rc%20Car..ino)
  1. Fjarsteringinn
  * Setja upp IC2 comunication sem Master
  * setja upp Funcion sem requestar fjarlægð að vegg og Skrifar það á Lcd Skjáinn 
  * Setja upp IF statmest sem finur út havða takka var ítt á og merkir við rétt value
  * Senda valuið á Bílinn
- [Fjarstering Kóði](https://github.com/Tardis2105/Verksmidja/blob/master/Rc%20car/Controler.ino)
+ #### [Fjarstering Kóði](https://github.com/Tardis2105/Verksmidja/blob/master/Rc%20car/Controler.ino)
