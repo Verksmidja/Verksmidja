@@ -34,3 +34,6 @@
  * Setja upp IF statmest sem finur út havða takka var ítt á og merkir við rétt value
  * Senda valuið á Bílinn
  #### [Fjarstering Kóði](https://github.com/Tardis2105/Verksmidja/blob/master/Rc%20car/Controler.ino)
+ 
+ ### Hönnun
+ [Tinckercad](https://www.tinkercad.com/things/ctOUQt1nk8s-rc-car/edit)
