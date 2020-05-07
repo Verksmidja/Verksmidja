@@ -36,4 +36,4 @@
  #### [Fjarstering Kóði](https://github.com/Tardis2105/Verksmidja/blob/master/Rc%20car/Controler.ino)
  
  ### Hönnun
- [Tinckercad](https://www.tinkercad.com/things/ctOUQt1nk8s-rc-car/edit)
+ [Tinckercad](https://www.tinkercad.com/things/ctOUQt1nk8s-rc-car/edit?sharecode=ZhOycxg5g-h4x8SwpXJ3j1ZHdYJqIiJnIg_Ib6-h4QI)
